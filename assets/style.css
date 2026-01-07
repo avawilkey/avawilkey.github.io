@@ -50,3 +50,32 @@ a:hover{text-decoration:underline}
 }
 .nav{display:flex;gap:20px;font-weight:700}
 .content{padding:28px;max-width:900px}
+
+.project-card{
+  margin: 26px 0 34px;
+}
+
+.project-title{
+  display:inline-block;
+  font-size: 28px;
+  font-weight: 800;
+  margin: 8px 0 8px;
+  text-decoration: none;
+}
+
+.project-sub{
+  margin: 0 0 14px;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 900px;
+}
+
+.project-img{
+  width: 100%;
+  max-width: 900px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  display:block;
+}
+
