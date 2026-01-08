@@ -27,11 +27,13 @@ a:hover{text-decoration:underline}
   padding:28px 22px;
 }
 .avatar{
-  width:160px;
-  height:160px;
+  width:180px;
+  height:180px;
   border-radius:50%;
-  display:block;
-  margin:0 auto 14px;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  margin: 0 auto 14px;
 }
 .name{text-align:center;font-size:22px;font-weight:800}
 .role{text-align:center;color:var(--muted);font-size:14px;margin-bottom:18px}
