@@ -12,7 +12,7 @@
 
     <!-- Sidebar -->
     <aside class="sidebar">
-      <img class="avatar" src="../assets/ava-2.jpg" alt="Ava Wilkey">
+      <img class="avatar" src="../assets/ava-2.jpg" alt="Ava Wilkey" />
       <div class="name">Ava Wilkey</div>
       <div class="role">M.S. Aerospace Engineering</div>
 
@@ -20,8 +20,9 @@
         <span>📍 Logan, UT</span>
         <span>🎓 Utah State University</span>
         <a href="mailto:wilkeyava@gmail.com">✉️ Email</a>
-        <a href="https://github.com/avawilkey">🐙 GitHub</a>
-        <a href="https://www.linkedin.com/in/ava-wilkey/">in LinkedIn</a>
+        <a href="https://github.com/avawilkey" target="_blank" rel="noopener">🐙 GitHub</a>
+        <a href="https://www.linkedin.com/in/ava-wilkey/" target="_blank" rel="noopener">in LinkedIn</a>
+        <a href="../assets/AvaWilkey-Resume.pdf" target="_blank" rel="noopener">📄 Resume (PDF)</a>
       </div>
     </aside>
 
@@ -35,44 +36,101 @@
         </div>
       </div>
 
-      <section class="content">
+      <div class="content">
         <h1>Copper Electroplating of 3D-Printed Hybrid Rocket Components</h1>
 
-        <h2>Project Overview</h2>
-        <p>
-          This project focused on developing and refining a copper electroplating process for
-          3D-printed components used in hybrid rocket motors. The goal was to improve
-          thermal resistance, erosion durability, and structural integrity during high-temperature
-          static fire testing.
+        <p style="color: var(--muted); max-width: 900px;">
+          Developed and refined a copper electroplating process for 3D-printed thermoplastic components
+          used in hybrid rocket motors. The objective was to improve thermal resistance, erosion durability,
+          and structural integrity during high-temperature static fire testing.
         </p>
 
-        <!-- Replace with your own images -->
-        <img src="../assets/electroplating-setup.jpg" alt="Electroplating setup">
+        <!-- Project Overview -->
+        <div class="section">
+          <h2>Project Overview</h2>
+          <div class="hr"></div>
+          <p>
+            This work focused on building a repeatable copper electroplating workflow for 3D-printed parts.
+            Key challenges included achieving reliable adhesion on thermoplastics, maintaining uniform coating
+            thickness, and controlling deposition through current density and bath conditions.
+          </p>
 
-        <h2>My Role & Contributions</h2>
-        <ul>
-          <li>Developed a repeatable copper electroplating process for 3D-printed thermoplastics.</li>
-          <li>Performed surface preparation including sanding, chemical cleaning, and conductive coating.</li>
-          <li>Controlled bath chemistry, current density, and plating time to optimize adhesion and thickness.</li>
-          <li>Characterized plating rate, coating uniformity, and adhesion quality.</li>
-          <li>Evaluated plated components after static fire tests to assess erosion resistance.</li>
-        </ul>
+          <img
+            src="../assets/electroplating-sample.jpg"
+            alt="Copper electroplated 3D-printed cylindrical component"
+            style="width:100%; max-width: 520px; display:block; margin: 16px 0; border-radius: 12px;"
+          />
+          <p style="color: var(--muted); font-size: 14px; margin-top: 8px;">
+            Example plated component showing copper finish and coverage.
+          </p>
+        </div>
 
-        <h2>Outcomes & Results</h2>
-        <ul>
-          <li>Achieved uniform copper coatings with strong adhesion to printed substrates.</li>
-          <li>Demonstrated improved thermal durability during high-temperature rocket testing.</li>
-          <li>Established a scalable plating workflow for future propulsion hardware.</li>
-        </ul>
+        <!-- Process & Setup -->
+        <div class="section">
+          <h2>Process & Setup</h2>
+          <div class="hr"></div>
+          <p>
+            A benchtop electroplating system was assembled to control voltage/current, plating time, and bath parameters.
+            Surface preparation and fixturing were optimized to improve conductivity, reduce defects, and support
+            consistent deposition across complex geometries.
+          </p>
 
-        <h2>Tools & Technologies</h2>
-        <ul>
-          <li>Electroplating power supplies and chemical baths</li>
-          <li>3D printing (ABS, ASA, PETG-based materials)</li>
-          <li>Hybrid rocket motor test facilities</li>
-          <li>Post-test inspection and failure analysis</li>
-        </ul>
-      </section>
+          <img
+            src="../assets/electroplating-bath.jpg"
+            alt="Copper electroplating bath with power supply and fixtured part"
+            style="width:100%; max-width: 900px; display:block; margin: 16px 0; border-radius: 12px;"
+          />
+          <p style="color: var(--muted); font-size: 14px; margin-top: 8px;">
+            Benchtop plating setup used to control current density and repeat plating runs.
+          </p>
+        </div>
+
+        <!-- Role -->
+        <div class="section">
+          <h2>My Role &amp; Contributions</h2>
+          <div class="hr"></div>
+          <ul class="bullets">
+            <li>Developed a repeatable copper electroplating workflow for 3D-printed thermoplastics.</li>
+            <li>Performed surface preparation (sanding, cleaning, and conductive coating application).</li>
+            <li>Controlled bath parameters, current density, and plating time to optimize adhesion and thickness.</li>
+            <li>Evaluated coating uniformity and adhesion quality through inspection and handling tests.</li>
+            <li>Documented process settings to support repeatability and scaling for future parts.</li>
+          </ul>
+
+          <img
+            src="../assets/electroplating-fixture.jpg"
+            alt="Copper electroplated component mounted in a mechanical fixture"
+            style="width:100%; max-width: 900px; display:block; margin: 16px 0; border-radius: 12px;"
+          />
+          <p style="color: var(--muted); font-size: 14px; margin-top: 8px;">
+            Fixturing approach used during plating and handling to improve consistency and minimize damage.
+          </p>
+        </div>
+
+        <!-- Outcomes -->
+        <div class="section">
+          <h2>Outcomes &amp; Results</h2>
+          <div class="hr"></div>
+          <ul class="bullets">
+            <li>Achieved copper coatings with strong adhesion to printed substrates.</li>
+            <li>Improved thermal durability and erosion resistance for propulsion-relevant hardware.</li>
+            <li>Established a repeatable workflow suitable for iterating rocket components.</li>
+          </ul>
+        </div>
+
+        <!-- Tools -->
+        <div class="section">
+          <h2>Tools &amp; Technologies</h2>
+          <div class="hr"></div>
+          <ul class="bullets">
+            <li><strong>Electroplating:</strong> Power supplies, copper baths, anodes/cathode fixturing</li>
+            <li><strong>Manufacturing:</strong> 3D printing (thermoplastics), surface prep and coating</li>
+            <li><strong>Testing:</strong> Post-process inspection, handling/adhesion checks</li>
+            <li><strong>Application:</strong> Hybrid rocket motor components</li>
+          </ul>
+        </div>
+
+      </div>
     </main>
 
   </div>
