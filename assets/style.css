@@ -39,10 +39,17 @@ a:hover{text-decoration:underline}
 .role{text-align:center;color:var(--muted);font-size:14px;margin-bottom:18px}
 
 .side-links{
-  display:grid;
-  gap:10px;
-  font-size:14px;
+  display: grid;
+  gap: 10px;
+  font-size: 14px;
 }
+
+.side-links a,
+.side-links span{
+  display: block;
+  line-height: 1.2;
+}
+
 .main{padding:0}
 .topbar{
   padding:16px 28px;
